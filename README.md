@@ -9,24 +9,24 @@ Este programa es una implementación del clásico juego de Tetris, donde el obje
 ## Requisitos del Sistema
 
 Asegúrate de tener instalado Python 3 y la librería pygame. Si no la tienes, puedes instalarla con:
-` ` ` 
+```
 pip install pygame
-` ` ` 
+```
 
 ## Instrucciones de Uso
 
 Clona este repositorio en tu máquina local:
-` ` ` 
+```
 git clone [https://github.com/tu-usuario/tetris-game.git](https://github.com/saflores2/tetris.git)
-` ` `   
+```
 Navega al directorio del juego:
-` ` ` 
+```
 cd tetris
-` ` ` 
+```
 Ejecuta el juego:
-` ` ` 
+```
 python main.py
-` ` ` 
+```
 ## Características
 
 Controles Sencillos: Utiliza las teclas de flecha para mover y girar las piezas, la barra espaciadora para hacer que las piezas caigan más rápido, Z o Left Control para la rotación en otro sentido y C o Shift para retener una pieza y usarla más tarde.
