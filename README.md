@@ -17,7 +17,7 @@ pip install pygame
 
 Clona este repositorio en tu máquina local:
 ```
-git clone [https://github.com/tu-usuario/tetris-game.git](https://github.com/saflores2/tetris.git)
+git clone https://github.com/saflores2/tetris.git
 ```
 Navega al directorio del juego:
 ```
