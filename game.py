@@ -153,7 +153,7 @@ def keyboard(current_piece, grid, hold, hold_piece, first_hold, retention_count)
                     current_piece.y += 1
                 current_piece.y -= 1
 
-            if event.key == pygame.K_c or (pygame.key.get_mods() and pygame.KMOD_SHIFT):
+            if event.key == pygame.K_c or (pygame.key.get_mods() & pygame.KMOD_SHIFT):
                 if retention_count == 0:
                     if hold_piece == False:
                         first_hold = True
