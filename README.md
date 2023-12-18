@@ -6,11 +6,13 @@ Descripción
 Este programa es una implementación del clásico juego de Tetris, donde el objetivo es organizar y eliminar bloques que caen para acumular la mayor cantidad de puntos posible.
 
 Requisitos del Sistema
+
 Asegúrate de tener instalado Python 3 y la librería pygame. Si no la tienes, puedes instalarla con:
 
 pip install pygame
 
 Instrucciones de Uso
+
 Clona este repositorio en tu máquina local:
 
   git clone [https://github.com/tu-usuario/tetris-game.git](https://github.com/saflores2/tetris.git)
