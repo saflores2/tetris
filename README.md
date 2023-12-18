@@ -7,7 +7,8 @@ Este programa es una implementación del clásico juego de Tetris, donde el obje
 
 Requisitos del Sistema
 Asegúrate de tener instalado Python 3 y la librería pygame. Si no la tienes, puedes instalarla con:
-  pip install pygame
+bash
+pip install pygame
 
 Instrucciones de Uso
 Clona este repositorio en tu máquina local:
