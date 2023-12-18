@@ -1,6 +1,6 @@
 # Tetris
 
-Este juego de tetris sigue las instrucciones del siguiente desafío: https://docs.google.com/document/d/1EJ0zanHbVCQM4bZ33vZvyaV7TAmXLKkc9KG6UpBDhPc/edit
+Este juego de tetris sigue las instrucciones del [siguiente desafío](https://docs.google.com/document/d/1EJ0zanHbVCQM4bZ33vZvyaV7TAmXLKkc9KG6UpBDhPc/edit).
 
 ## Descripción
 
