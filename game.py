@@ -71,12 +71,14 @@ def clear_rows(grid, locked):
     :return: number of rows cleared
     """
     inc = 0
+    rows_ind = []
     # for position 19 to 0 check every row and if there is color
     for i in range(len(grid)-1, -1, -1):
         row = grid[i]
         if (0, 0, 0) not in row:
             inc += 1
             ind = i
+            rows_ind.append(ind)
             # uodate locked_positions
             for j in range(len(row)):
                 try:
@@ -89,8 +91,12 @@ def clear_rows(grid, locked):
         for key in sorted(list(locked), key = lambda x: x[1])[::-1]:
             x, y = key
             # move down the positions that are over the deleted row
-            if y < ind:
-                new_key = (x, y + inc)
+            if y < rows_ind[0]:
+                count = 0
+                for deleted_row in rows_ind:
+                    if y < deleted_row:
+                        count += 1
+                new_key = (x, y + count)
                 # give color to new key
                 locked[new_key] = locked.pop(key)
     return inc
